@@ -1,0 +1,99 @@
+*{
+    margin: 0; /* reset css - tirando margin e padding e toda página*/
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+  }
+/* HOME---------------------------------------------------------------------*/
+
+  header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 0.8em;
+      border-bottom: 2px solid rgba(230, 163, 157, 0.24);
+      height: 100px;
+      width: 100vw;
+      text-transform: uppercase;
+      position: fixed;
+      z-index: 9;
+      background-color: whitesmoke;
+      
+  }
+
+  .home{
+    background-image: url('../img/fundo.jpg');
+    background-size: 100vw 100vh; /* largura automatica e altura 100% do tamanho total da tela, o auto mantém a proporção */
+    height: 100vh; /* garante que a altura do body seja sempre a mesma*/
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+  }
+
+  .logo{
+    width: 200px;
+    height: 150px;
+  }
+
+  .area_usuario{
+    background-color: rgba(245, 245, 220, 0.94);    
+    color:	#EE7942;  
+    width: 100vw;
+    margin-left: 20px;
+    border-radius: 3%;
+    border-width: 5px;
+    text-align: center;  
+    border: 2px solid rgba(230, 163, 157, 0.24); 
+    position: absolute;
+    bottom: 0;
+    border-bottom: none;
+}
+
+.area_usuario h1{
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+}
+
+.cad {
+    width: 70px;
+    cursor: pointer;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.login {
+  width: 85px;
+  cursor: pointer;
+  clip-path: circle(50% at 50% 50%);
+
+}
+
+.acomp{
+  width: 75px;
+  cursor: pointer;
+  clip-path: circle(50% at 50% 50%);
+
+} 
+.emprestimo {
+  width: 80px;
+  cursor: pointer;
+  clip-path: circle(50% at 50% 50%);
+
+}
+
+  /* SEÇÃO FORMULÁRIO---------------------------------------------------------------------*/
+
+  .formulario{
+    max-width: 600px;
+    align-content: center;
+    background-color: rgba(245, 245, 220, 0.94); 
+    border-radius: 3%;  
+    text-align: center;  
+    padding: 50px;
+  }
+  

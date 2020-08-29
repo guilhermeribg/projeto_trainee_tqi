@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CredCenter</title>
+    <link rel="stylesheet" href="./layout/layout_index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cursive&family=Dancing+Script&family=Permanent+Marker&family=Playfair+Display&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ba1bf88a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.svg">
+        <nav class="menu">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li> <!-- tag a para botar link -->
+            <li><a href="#parcerias">Parcerias</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>    
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="boasvindas">
+            <h1>Seja bem vindo ao CredCenter!</h1>
+            <h3>O site de crédito que mais cresce no País!</h3>
+        </div>
+
+        <footer class="area_usuario">
+            <h1> Área do Cliente</h1>
+            <ul>
+
+                <a id="linkcad" target="_self" href="cadastro.html"><img class="cad" src="img/cadastro.png" data-toggle="tooltip" data-placement="top" title="CADASTRO">
+                </a>
+                
+
+                <a id="linklogin" target="_self" href="login.html"><img class="login" src="img/login.png" data-toggle="tooltip" data-placement="top" title="LOGIN">
+                </a>
+ 
+            </ul>
+        </footer>
+        
+
+    </section>
+    <a id="home" href="#top">
+        ^ <br> HOME
+      </a>
+
+    <section class="sobre" id="sobre">
+        <figure>
+        <img class="udia" alt="Cidade de Uberlândia" src="img/udia.png">
+        <figcaption id="legenda1">Cidade de Uberlândia</figcaption>
+        </figure>
+        <div id="texto">
+        <h1>História da CredCenter</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada ante vel varius pulvinar. Donec vel feugiat lorem. Proin in feugiat libero. Nunc in placerat nulla, a hendrerit ante. Etiam tortor risus, mollis at congue et, volutpat id massa. Cras consequat id elit in vehicula. Duis quis imperdiet velit, at lacinia massa. Integer dignissim facilisis arcu, vitae tristique ipsum pretium vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </section>
+
+    <section class="parcerias" id="parcerias">
+        <container class="logos_parceiras">
+            <img class="fig_logos" src="img/logos_parceiros.jpg">
+        </container>
+
+        <aside id="citacoes">
+            <h1>
+                Depoimentos de parceiros
+            </h1>
+
+            <h4>"Morbi rhoncus convallis lacus et vestibulum." </h4>
+            <h5>NBA</h5><br>
+            <h4>"Praesent elementum, sapien eget mattis volutpat, dui est malesuada ex, vestibulum." </h4>
+            <h5>MasterCard</h5><br>
+       
+
+
+        </aside>
+
+    </section>
+
+    <section class="contato" id="contato">
+        <form class="formulario">
+            <h1>Entre em contato conosco!</h1>
+            <label for="user">Nome completo:</label>
+            <input type="text" name="nome" id="user"><br>
+            <label>Assunto:</label>
+            <input type="text" name="assunto" id="assunto"><br>
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email"><br>
+            <label>Data de hoje:</label>
+            <input type="date" name="data"><br>
+            <p>Mensagem:</p>
+            <textarea name="mensagem" rows="10" cols="40"></textarea><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+
+        <footer class="rodape">
+            <p>Este site foi desenvolvimento por Guilherme Ribeiro Gonçalves</p>
+            <div class="icones">
+            <a target="_blank" href="https://github.com/guilhermeribg">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/guilherme.ribg/">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/guilherme-ribg/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:guilherme.ribg@gmail.com">
+                <i class="far fa-envelope"></i>
+            </a>
+            </div>
+        </footer>
+
+    </section>
+
+
+</body>
+</html>

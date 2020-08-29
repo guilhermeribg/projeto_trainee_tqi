@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreCenter</title>
+    <link rel="stylesheet" href="./layout/layout_area_cliente.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cursive&family=Dancing+Script&family=Permanent+Marker&family=Playfair+Display&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ba1bf88a5.js" crossorigin="anonymous"></script>
+    <script src="script/func_cliente.js"></script>
+</head>
+<body>
+<header>
+    <a id="index" target="_self" href="index.html">    
+        <img class="logo" src="img/logo.svg">
+    </a><br>
+</header>
+
+    <container class="box">
+        <button value="Click" onclick="return set_visible()" id="solicita">
+            <h1>Solicitação</h1>
+        </button>
+        <button value="Click" onclick="return set_visible()" id="acompanha">
+            <h1>Acompanhamento</h1>
+        </button>
+
+    </container>
+
+    <container id="conteudo" display="none">
+        <div id="solicitacao">
+            <form id="formulario">
+                <h1>Preencha o formulário para solicitar o empréstimo:</h1>
+                <label for="user">Lorem ipsum dolor:</label>
+                <input type="text" name="nome" id="user"><br>
+                <label>Morbi rhoncus convallis :</label>
+                <input type="text" name="rg" id="rg" maxlength="8" minlength="8" placeholder="Somente números"><br>
+                <label>Nunc eget leo tellus:</label>
+                <input type="text" name="email" id="email"><br>
+                <label>Proin nec mauris risus:</label>
+                <input type="number" name="valor" id="valor"><br>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+        <div  style="display:none" id="acompanhamento">
+            <h1>Etiam tortor risus, mollis at congue et, volutpat id massa</h1>
+            <figure>
+            <img class="grafico" src="img/grafico.png">
+            <figcaption>Nunc eget leo tellus</figcaption>
+            </figure>
+        </div>
+        
+
+    </container>
+
+
+    <footer class="rodape">
+        <p>Este site foi desenvolvimento por Guilherme Ribeiro Gonçalves</p>
+        <div class="icones">
+        <a target="_blank" href="https://github.com/guilhermeribg">
+            <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/guilherme.ribg/">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/guilherme-ribg/">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:guilherme.ribg@gmail.com">
+            <i class="far fa-envelope"></i>
+        </a>
+        </div>
+    </footer>
+    
+
+
+</section>
+
+</body>
+</html>
